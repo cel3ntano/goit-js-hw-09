@@ -51,10 +51,15 @@
 }
 
 .feedback-form input:hover,
+.feedback-form textarea:hover {
+  border: 1px solid #000000;
+}
+
+.feedback-form input:active,
 .feedback-form input:focus,
-.feedback-form textarea:hover,
+.feedback-form textarea:active,
 .feedback-form textarea:focus {
-  border: 1px solid #000;
+  border: 1px solid #808080;
 }
 
 .feedback-form button {
