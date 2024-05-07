@@ -19,7 +19,7 @@ function onInput(event) {
 
 function onSubmit(event) {
   event.preventDefault();
-  if (formData.email.trim() !== '' && formData.message.trim() !== '') {
+  if (email.value.trim() !== '' && message.value.trim() !== '') {
     console.log(formData);
     localStorage.removeItem(localStorageKey);
     feedbackForm.reset();
